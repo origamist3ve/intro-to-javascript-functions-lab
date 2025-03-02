@@ -57,15 +57,15 @@ Complete the exercise in the space below:
 */
 
 // TODO: Finish later
-// const isCharAVowel = (a) => {
-//     if (a === 'a'|| 'e'||'o'||'i'||'u'){
-//         return true
-//     }
-//     else{
-//         return false
-//     }
-// }
-// console.log(isCharAVowel('b'))
+const isCharAVowel = (y) => {
+    if (y === 'a'||y === 'i'||y === 'u'||y === 'e'||y === 'o') {
+        return true
+    }
+    else {
+        return false
+    }
+}
+console.log(isCharAVowel("u"))
 
 
 /*
@@ -151,9 +151,9 @@ Complete the exercise in the space below:
 //
 // console.log(calculateTip(100, 20))
 
-/*
-Title: Exercise 8: convertTemperature()
 
+//Title: Exercise 8: convertTemperature()
+/*
 Write a function named convertTemperature.
 It takes two arguments: a temperature and a string representing the
 scale ('C' for Celsius, 'F' for Fahrenheit).
@@ -164,3 +164,59 @@ Example: convertTemperature(32, 'F') should return 0 (Celsius).
 
 Complete the exercise in the space below:
 */
+
+// const convertTemperature =(temp, type) => {
+//     if (temp === "f" || temp === "F") {
+//         let celcius = (type - 32) *5 / 9
+//         return celcius
+//     }
+//     if (temp === "c" || temp === "C") {
+//         let fahrenheit = (type * 9/5) +32
+//         return fahrenheit
+//     }
+// }
+// console.log(convertTemperature("c",10))
+
+/*
+Exercise 9: basicCalculator()
+
+Create a function named basicCalculator.
+It should take three arguments: two numbers and a string representing
+an operation ('add', 'subtract', 'multiply', 'divide').
+Perform the provided operation on the two numbers.
+In operations where the order of numbers is important,
+treat the first parameter as the first operand and the
+second parameter as the second operand.
+
+Example: basicCalculator(10, 5, 'subtract') should return 5.
+
+Complete the exercise in the space below:
+*/
+
+// const basicCalculator= (num1, num2, calculate) => {
+//     if (calculate === "add" && num1 >= num2) {
+//         let add = num1 + num2;
+//         return add
+//     }
+//     if (calculate === "subtract" && num1 >= num2) {
+//         let subtract = num1 - num2;
+//         return subtract
+//     }
+//     else if (calculate === "subtract" && num1 < num2) {
+//         let subtract = num2 - num1;
+//         return subtract
+//     }
+//     if (calculate === "multiply" && num1 >= num2) {
+//         let multiply = num1 * num2;
+//         return multiply
+//     }
+//     if (calculate === "divide" && num1 >= num2) {
+//         let divide = num1 / num2;
+//         return divide
+//     }
+//     else if (calculate === "divide" && num1 < num2) {
+//         let divide = num2 / num1;
+//         return divide
+//     }
+// }
+// console.log(basicCalculator(6,100,"subtract"))
