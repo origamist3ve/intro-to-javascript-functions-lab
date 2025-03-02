@@ -1,22 +1,22 @@
 /*
 Title: Exercise 1: maxOfTwoNumbers()
 
-In this exercise, create a function named maxOfTwoNumbers. 
-It should take two numbers as inputs and return the larger number. 
+In this exercise, create a function named maxOfTwoNumbers.
+It should take two numbers as inputs and return the larger number.
 If they're equal, return either one.
 
 Exercise 1 has been completed for you:
 */
 
 // const maxOfTwoNumbers = (x, y) => {
-//     if (x => y) {
+//     if (x >= y) {
 //         return x;
 //     } else {
-//         return x
+//         return y
 //     }
 // }
 //
-// console.log(maxOfTwoNumbers(5, 5));
+// console.log(maxOfTwoNumbers(5, 4));
 
 
 /*
@@ -32,7 +32,7 @@ Complete the exercise in the space below:
 
 
 // const isAudit = (x) => {
-//     if (x > 18){
+//     if (x >= 18){
 //         console.log("Adult")
 //     }
 //     else {
@@ -40,7 +40,7 @@ Complete the exercise in the space below:
 //     }
 // }
 //
-// (isAudit(19))
+// (isAudit(18))
 
 
 /*
@@ -56,16 +56,15 @@ Example: isCharAVowel('a') should return true.
 Complete the exercise in the space below:
 */
 
-// TODO: Finish later
-const isCharAVowel = (y) => {
-    if (y === 'a'||y === 'i'||y === 'u'||y === 'e'||y === 'o') {
-        return true
-    }
-    else {
-        return false
-    }
-}
-console.log(isCharAVowel("u"))
+// const isCharAVowel = (y) => {
+//     if (y === 'a'||y === 'i'||y === 'u'||y === 'e'||y === 'o') {
+//         return true
+//     }
+//     else {
+//         return false
+//     }
+// }
+// console.log(isCharAVowel("u"))
 
 
 /*
